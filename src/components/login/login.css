@@ -1,0 +1,40 @@
+/* Made with love by Mutiullah Samim*/
+.bodyLog {
+  background-color: teal;
+  padding: 0% 0% 5% 2%;
+}
+.login_back {
+  background-image: url('https://previews.123rf.com/images/abluecup/abluecup1507/abluecup150700884/42396459-a-road-sign-with-revenue-expenses-words-3d-image-isolated-white-background.jpg');
+  background-repeat: no-repeat;
+  border-radius: 10%;
+
+  background-size: 100% 100%;
+  border: 5px solid black;
+}
+.main-wrap {
+  margin: 0% 5%;
+  min-height: 100vh;
+}
+
+.Lognav {
+  padding: 2%;
+}
+
+.form {
+  padding: 0% 5%;
+}
+
+.logo {
+  width: auto;
+  height: 15vh;
+
+  margin-left: 40%;
+}
+
+@media screen and (max-width: 960px) {
+  .login_back {
+    display: none;
+  }
+  .form {
+  }
+}

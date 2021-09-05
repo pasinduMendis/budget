@@ -1,0 +1,52 @@
+html {
+  margin: 0;
+}
+.bodyReg {
+  background-color: teal;
+  padding: 0% 0% 2% 0%;
+}
+.register_back {
+  background-image: url('https://cdn.friendlystock.com/wp-content/uploads/2020/05/3-businessman-leaning-on-big-dollar-sign-cartoon-clipart.jpg');
+  background-repeat: no-repeat;
+  height: 70vh;
+  border-radius: 10%;
+  background-size: 100% 100%;
+  border: 5px solid black;
+  position: relative;
+}
+.main-wrap {
+  margin: 0% 5%;
+  min-height: 100vh;
+}
+.reg_logoDiv {
+  height: 25vh;
+  position: relative;
+}
+.reg_form {
+  padding: 5% 5%;
+}
+
+.reg_logo {
+  width: auto;
+  height: 15vh;
+
+  margin-left: 40%;
+}
+.Regnav {
+  position: fixed;
+  padding: 0;
+  min-width: 100vw;
+  background-color: teal;
+  position: fixed;
+}
+
+@media screen and (max-width: 960px) {
+  .register_back {
+    display: none;
+  }
+  .reg_form {
+  }
+  .Regnav {
+    position: relative;
+  }
+}

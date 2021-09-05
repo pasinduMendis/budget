@@ -1,0 +1,35 @@
+.home {
+  min-height: 100vh;
+  background-image: url('https://images.all-free-download.com/images/graphiclarge/watches_and_money_vector_294165.jpg');
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+}
+.homePage h1 {
+  text-align: center;
+}
+.homePage {
+  background: #000;
+  opacity: 0.8;
+  padding: 0% 20%;
+  border: 5px solid teal;
+}
+.homePage:hover {
+  border: 5px solid red;
+}
+
+.homeForm {
+  background: white;
+  border: 5px solid royalblue;
+  width: 100%;
+  color: black;
+  font-weight: bold;
+}
+.homeForm:hover {
+  border: 5px solid red;
+}
+
+.homelogo {
+  width: auto;
+  height: 15vh;
+}

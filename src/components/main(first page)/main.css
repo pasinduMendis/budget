@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+.main {
+  height: 100vh;
+  background-image: url('https://s3-ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/06/03074224/Exchange-Rates.jpg');
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+  border: 5px solid black;
+}
+
+.btn_group {
+  width: 60%;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-select {
+  width: 45%;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  opacity: 0.7;
+  margin: 2.5%;
+}
+
+.btn-select:hover {
+  opacity: 1;
+  color: crimson;
+  transform: scale(1.2);
+}
